@@ -23,11 +23,6 @@ public class OfferManagerEx implements IOfferAdmin {
 		// TODO: fetch the store location from config, once the config services is ready....
 
 		System.out.println("Offer Manager Start1======>");
-		//String offerStoreLocation = System.getenv("SEF_CATALOG_HOME");
-		//System.out.println("sef path is:"+offerStoreLocation);
-		//System.out.println("Config access: " + ServiceResolver.getConfig());
-		//offerStoreLocation = ServiceResolver.getConfig().getValue("GLOBAL", "offerStoreLocation");
-		//offerStoreLocation = getStoreLocation();
 		offerStoreLocation="D:/Offerccm/offerStore.ccm";
 		System.out.println("offerstore location: " + offerStoreLocation);
 		ssh = new SecureSerializationHelperEx();
